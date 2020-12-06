@@ -185,6 +185,4 @@ mp.ylabel('True Positive rate')
 mp.legend(loc='best')
 
 from sklearn.metrics import confusion_matrix
-
-sns.heatmap(confusion_matrix(y_test,y_pred))
 cm=confusion_matrix(y_test,y_pred)
